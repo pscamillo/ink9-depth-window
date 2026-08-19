@@ -1,0 +1,127 @@
+{
+  "note": "recorded, not the criterion \u2014 the verdict came from the blind judgement, fixed before any measurement",
+  "labels": "scored against the corrected labels of 2026-08-18",
+  "threshold": 0.5,
+  "records": [
+    {
+      "segment": "pherc0139-w016",
+      "arm": "m17",
+      "balanced_accuracy": 0.7016806611822233,
+      "auc": 0.8146578902677198,
+      "validation_px": 178146,
+      "ink_frac": 0.23156848876764002
+    },
+    {
+      "segment": "pherc0139-w016",
+      "arm": "b13",
+      "balanced_accuracy": 0.7309927821291485,
+      "auc": 0.850253708376491,
+      "validation_px": 178146,
+      "ink_frac": 0.23156848876764002
+    },
+    {
+      "segment": "pherc0814-46527",
+      "arm": "m17",
+      "balanced_accuracy": 0.7419659610322775,
+      "auc": 0.8295696466563237,
+      "validation_px": 161051,
+      "ink_frac": 0.3733413639157782
+    },
+    {
+      "segment": "pherc0814-46527",
+      "arm": "b13",
+      "balanced_accuracy": 0.7966891973679031,
+      "auc": 0.8943919453727163,
+      "validation_px": 161051,
+      "ink_frac": 0.3733413639157782
+    },
+    {
+      "segment": "pherc1667-w029",
+      "arm": "m17",
+      "balanced_accuracy": 0.8217482420663105,
+      "auc": 0.9101285823427941,
+      "validation_px": 382353,
+      "ink_frac": 0.2302427338088102
+    },
+    {
+      "segment": "pherc1667-w029",
+      "arm": "b13",
+      "balanced_accuracy": 0.8145467929464902,
+      "auc": 0.8970474852139707,
+      "validation_px": 382353,
+      "ink_frac": 0.2302427338088102
+    },
+    {
+      "segment": "pherc0139-w016",
+      "arm": "b09",
+      "balanced_accuracy": 0.7328777654022077,
+      "auc": 0.8841919267525622,
+      "validation_px": 178146,
+      "ink_frac": 0.23156848876764002
+    },
+    {
+      "segment": "pherc0814-46527",
+      "arm": "b09",
+      "balanced_accuracy": 0.7849635683413998,
+      "auc": 0.9010572367703085,
+      "validation_px": 161051,
+      "ink_frac": 0.3733413639157782
+    },
+    {
+      "segment": "pherc1667-w029",
+      "arm": "b09",
+      "balanced_accuracy": 0.7756497852225794,
+      "auc": 0.9148740807540806,
+      "validation_px": 382353,
+      "ink_frac": 0.2302427338088102
+    },
+    {
+      "segment": "pherc0139-w016",
+      "arm": "b05",
+      "balanced_accuracy": 0.5292013964633209,
+      "auc": 0.6259112215987183,
+      "validation_px": 178146,
+      "ink_frac": 0.23156848876764002
+    },
+    {
+      "segment": "pherc0814-46527",
+      "arm": "b05",
+      "balanced_accuracy": 0.5,
+      "auc": 0.5402250534217126,
+      "validation_px": 161051,
+      "ink_frac": 0.3733413639157782
+    },
+    {
+      "segment": "pherc1667-w029",
+      "arm": "b05",
+      "balanced_accuracy": 0.5,
+      "auc": 0.6904799862761483,
+      "validation_px": 382353,
+      "ink_frac": 0.2302427338088102
+    },
+    {
+      "segment": "pherc0139-w016",
+      "arm": "b05j0",
+      "balanced_accuracy": 0.61347104545922,
+      "auc": 0.7527722191798637,
+      "validation_px": 178146,
+      "ink_frac": 0.23156848876764002
+    },
+    {
+      "segment": "pherc0814-46527",
+      "arm": "b05j0",
+      "balanced_accuracy": 0.7572154524749071,
+      "auc": 0.8548379305649711,
+      "validation_px": 161051,
+      "ink_frac": 0.3733413639157782
+    },
+    {
+      "segment": "pherc1667-w029",
+      "arm": "b05j0",
+      "balanced_accuracy": 0.6890224393993339,
+      "auc": 0.8210226990792848,
+      "validation_px": 382353,
+      "ink_frac": 0.2302427338088102
+    }
+  ]
+}

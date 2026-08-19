@@ -1,0 +1,253 @@
+{
+ "arm": "b09",
+ "baseline": "m17",
+ "counts": {
+  "b09": 0,
+  "m17": 0,
+  "tie": 60
+ },
+ "decided": 0,
+ "p": 1.0,
+ "per_window": [
+  {
+   "id": "N00",
+   "winner": "tie"
+  },
+  {
+   "id": "N01",
+   "winner": "tie"
+  },
+  {
+   "id": "N02",
+   "winner": "tie"
+  },
+  {
+   "id": "N03",
+   "winner": "tie"
+  },
+  {
+   "id": "N04",
+   "winner": "tie"
+  },
+  {
+   "id": "N05",
+   "winner": "tie"
+  },
+  {
+   "id": "N06",
+   "winner": "tie"
+  },
+  {
+   "id": "N07",
+   "winner": "tie"
+  },
+  {
+   "id": "N08",
+   "winner": "tie"
+  },
+  {
+   "id": "N09",
+   "winner": "tie"
+  },
+  {
+   "id": "N10",
+   "winner": "tie"
+  },
+  {
+   "id": "N11",
+   "winner": "tie"
+  },
+  {
+   "id": "N12",
+   "winner": "tie"
+  },
+  {
+   "id": "N13",
+   "winner": "tie"
+  },
+  {
+   "id": "N14",
+   "winner": "tie"
+  },
+  {
+   "id": "N15",
+   "winner": "tie"
+  },
+  {
+   "id": "N16",
+   "winner": "tie"
+  },
+  {
+   "id": "N17",
+   "winner": "tie"
+  },
+  {
+   "id": "N18",
+   "winner": "tie"
+  },
+  {
+   "id": "N19",
+   "winner": "tie"
+  },
+  {
+   "id": "N20",
+   "winner": "tie"
+  },
+  {
+   "id": "N21",
+   "winner": "tie"
+  },
+  {
+   "id": "N22",
+   "winner": "tie"
+  },
+  {
+   "id": "N23",
+   "winner": "tie"
+  },
+  {
+   "id": "N24",
+   "winner": "tie"
+  },
+  {
+   "id": "N25",
+   "winner": "tie"
+  },
+  {
+   "id": "N26",
+   "winner": "tie"
+  },
+  {
+   "id": "N27",
+   "winner": "tie"
+  },
+  {
+   "id": "N28",
+   "winner": "tie"
+  },
+  {
+   "id": "N29",
+   "winner": "tie"
+  },
+  {
+   "id": "N30",
+   "winner": "tie"
+  },
+  {
+   "id": "N31",
+   "winner": "tie"
+  },
+  {
+   "id": "N32",
+   "winner": "tie"
+  },
+  {
+   "id": "N33",
+   "winner": "tie"
+  },
+  {
+   "id": "N34",
+   "winner": "tie"
+  },
+  {
+   "id": "N35",
+   "winner": "tie"
+  },
+  {
+   "id": "N36",
+   "winner": "tie"
+  },
+  {
+   "id": "N37",
+   "winner": "tie"
+  },
+  {
+   "id": "N38",
+   "winner": "tie"
+  },
+  {
+   "id": "N39",
+   "winner": "tie"
+  },
+  {
+   "id": "N40",
+   "winner": "tie"
+  },
+  {
+   "id": "N41",
+   "winner": "tie"
+  },
+  {
+   "id": "N42",
+   "winner": "tie"
+  },
+  {
+   "id": "N43",
+   "winner": "tie"
+  },
+  {
+   "id": "N44",
+   "winner": "tie"
+  },
+  {
+   "id": "N45",
+   "winner": "tie"
+  },
+  {
+   "id": "N46",
+   "winner": "tie"
+  },
+  {
+   "id": "N47",
+   "winner": "tie"
+  },
+  {
+   "id": "N48",
+   "winner": "tie"
+  },
+  {
+   "id": "N49",
+   "winner": "tie"
+  },
+  {
+   "id": "N50",
+   "winner": "tie"
+  },
+  {
+   "id": "N51",
+   "winner": "tie"
+  },
+  {
+   "id": "N52",
+   "winner": "tie"
+  },
+  {
+   "id": "N53",
+   "winner": "tie"
+  },
+  {
+   "id": "N54",
+   "winner": "tie"
+  },
+  {
+   "id": "N55",
+   "winner": "tie"
+  },
+  {
+   "id": "N56",
+   "winner": "tie"
+  },
+  {
+   "id": "N57",
+   "winner": "tie"
+  },
+  {
+   "id": "N58",
+   "winner": "tie"
+  },
+  {
+   "id": "N59",
+   "winner": "tie"
+  }
+ ]
+}

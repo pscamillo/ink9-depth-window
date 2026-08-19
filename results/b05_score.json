@@ -1,0 +1,253 @@
+{
+ "arm": "b05",
+ "baseline": "m17",
+ "counts": {
+  "b05": 0,
+  "m17": 58,
+  "tie": 2
+ },
+ "decided": 58,
+ "p": 6.938893903907228e-18,
+ "per_window": [
+  {
+   "id": "N00",
+   "winner": "m17"
+  },
+  {
+   "id": "N01",
+   "winner": "m17"
+  },
+  {
+   "id": "N02",
+   "winner": "m17"
+  },
+  {
+   "id": "N03",
+   "winner": "m17"
+  },
+  {
+   "id": "N04",
+   "winner": "m17"
+  },
+  {
+   "id": "N05",
+   "winner": "m17"
+  },
+  {
+   "id": "N06",
+   "winner": "m17"
+  },
+  {
+   "id": "N07",
+   "winner": "m17"
+  },
+  {
+   "id": "N08",
+   "winner": "m17"
+  },
+  {
+   "id": "N09",
+   "winner": "m17"
+  },
+  {
+   "id": "N10",
+   "winner": "m17"
+  },
+  {
+   "id": "N11",
+   "winner": "m17"
+  },
+  {
+   "id": "N12",
+   "winner": "m17"
+  },
+  {
+   "id": "N13",
+   "winner": "m17"
+  },
+  {
+   "id": "N14",
+   "winner": "m17"
+  },
+  {
+   "id": "N15",
+   "winner": "m17"
+  },
+  {
+   "id": "N16",
+   "winner": "m17"
+  },
+  {
+   "id": "N17",
+   "winner": "m17"
+  },
+  {
+   "id": "N18",
+   "winner": "m17"
+  },
+  {
+   "id": "N19",
+   "winner": "m17"
+  },
+  {
+   "id": "N20",
+   "winner": "m17"
+  },
+  {
+   "id": "N21",
+   "winner": "m17"
+  },
+  {
+   "id": "N22",
+   "winner": "m17"
+  },
+  {
+   "id": "N23",
+   "winner": "m17"
+  },
+  {
+   "id": "N24",
+   "winner": "m17"
+  },
+  {
+   "id": "N25",
+   "winner": "m17"
+  },
+  {
+   "id": "N26",
+   "winner": "m17"
+  },
+  {
+   "id": "N27",
+   "winner": "m17"
+  },
+  {
+   "id": "N28",
+   "winner": "m17"
+  },
+  {
+   "id": "N29",
+   "winner": "m17"
+  },
+  {
+   "id": "N30",
+   "winner": "m17"
+  },
+  {
+   "id": "N31",
+   "winner": "m17"
+  },
+  {
+   "id": "N32",
+   "winner": "m17"
+  },
+  {
+   "id": "N33",
+   "winner": "m17"
+  },
+  {
+   "id": "N34",
+   "winner": "tie"
+  },
+  {
+   "id": "N35",
+   "winner": "m17"
+  },
+  {
+   "id": "N36",
+   "winner": "m17"
+  },
+  {
+   "id": "N37",
+   "winner": "m17"
+  },
+  {
+   "id": "N38",
+   "winner": "m17"
+  },
+  {
+   "id": "N39",
+   "winner": "tie"
+  },
+  {
+   "id": "N40",
+   "winner": "m17"
+  },
+  {
+   "id": "N41",
+   "winner": "m17"
+  },
+  {
+   "id": "N42",
+   "winner": "m17"
+  },
+  {
+   "id": "N43",
+   "winner": "m17"
+  },
+  {
+   "id": "N44",
+   "winner": "m17"
+  },
+  {
+   "id": "N45",
+   "winner": "m17"
+  },
+  {
+   "id": "N46",
+   "winner": "m17"
+  },
+  {
+   "id": "N47",
+   "winner": "m17"
+  },
+  {
+   "id": "N48",
+   "winner": "m17"
+  },
+  {
+   "id": "N49",
+   "winner": "m17"
+  },
+  {
+   "id": "N50",
+   "winner": "m17"
+  },
+  {
+   "id": "N51",
+   "winner": "m17"
+  },
+  {
+   "id": "N52",
+   "winner": "m17"
+  },
+  {
+   "id": "N53",
+   "winner": "m17"
+  },
+  {
+   "id": "N54",
+   "winner": "m17"
+  },
+  {
+   "id": "N55",
+   "winner": "m17"
+  },
+  {
+   "id": "N56",
+   "winner": "m17"
+  },
+  {
+   "id": "N57",
+   "winner": "m17"
+  },
+  {
+   "id": "N58",
+   "winner": "m17"
+  },
+  {
+   "id": "N59",
+   "winner": "m17"
+  }
+ ]
+}

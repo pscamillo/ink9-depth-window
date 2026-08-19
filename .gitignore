@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.zarr/
+*.tif
+*.pth
+.venv/

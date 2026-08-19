@@ -1,0 +1,466 @@
+{
+ "what": "impact of the 2026-08-18 label correction, measured on the full centre slice of all 51 masks",
+ "corrected": "labels_hf",
+ "previous": "labels_hf_pre_correcao_15ago",
+ "records": [
+  {
+   "segment": "pherc0139-w016",
+   "mask": "inklabels",
+   "pct_previous": 0.25804389516300874,
+   "pct_corrected": 0.3114114007465808,
+   "only_corrected": 27049,
+   "only_previous": 0,
+   "delta_rel_pct": 20.681560999480073
+  },
+  {
+   "segment": "pherc0139-w016",
+   "mask": "supervision_mask",
+   "pct_previous": 0.8258990932121126,
+   "pct_corrected": 0.9872485419576832,
+   "only_corrected": 81779,
+   "only_previous": 0,
+   "delta_rel_pct": 19.536218173826203
+  },
+  {
+   "segment": "pherc0139-w016",
+   "mask": "validation_mask",
+   "pct_previous": 0.34571189557339144,
+   "pct_corrected": 0.35148092904325595,
+   "only_corrected": 2924,
+   "only_previous": 0,
+   "delta_rel_pct": 1.6687402266838698
+  },
+  {
+   "segment": "pherc0139-w017",
+   "mask": "inklabels",
+   "pct_previous": 0.4431034209001199,
+   "pct_corrected": 0.4701554449393066,
+   "only_corrected": 13630,
+   "only_previous": 0,
+   "delta_rel_pct": 6.105126424940088
+  },
+  {
+   "segment": "pherc0139-w017",
+   "mask": "supervision_mask",
+   "pct_previous": 1.4270448789704748,
+   "pct_corrected": 1.5102353109295734,
+   "only_corrected": 41915,
+   "only_previous": 0,
+   "delta_rel_pct": 5.829559615470214
+  },
+  {
+   "segment": "pherc0139-w028",
+   "mask": "inklabels",
+   "pct_previous": 1.0740652684247503,
+   "pct_corrected": 1.0740674103394507,
+   "only_corrected": 1,
+   "only_previous": 0,
+   "delta_rel_pct": 0.00019942127945673713
+  },
+  {
+   "segment": "pherc0139-w028",
+   "mask": "supervision_mask",
+   "pct_previous": 3.7623481382477424,
+   "pct_corrected": 3.7625623297177815,
+   "only_corrected": 100,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0056930263274054685
+  },
+  {
+   "segment": "pherc0139-w029",
+   "mask": "inklabels",
+   "pct_previous": 0.25281298472032976,
+   "pct_corrected": 0.30778294812796186,
+   "only_corrected": 25658,
+   "only_previous": 0,
+   "delta_rel_pct": 21.743330734551364
+  },
+  {
+   "segment": "pherc0139-w029",
+   "mask": "supervision_mask",
+   "pct_previous": 0.8443538919025461,
+   "pct_corrected": 1.0257346324909375,
+   "only_corrected": 84662,
+   "only_previous": 0,
+   "delta_rel_pct": 21.481601770046222
+  },
+  {
+   "segment": "pherc0139-w035",
+   "mask": "inklabels",
+   "pct_previous": 1.1136700616642417,
+   "pct_corrected": 1.1136804545139611,
+   "only_corrected": 3,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0009332072466737906
+  },
+  {
+   "segment": "pherc0139-w035",
+   "mask": "supervision_mask",
+   "pct_previous": 3.529436014688561,
+   "pct_corrected": 3.529436014688561,
+   "only_corrected": 0,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0
+  },
+  {
+   "segment": "pherc0139-w039",
+   "mask": "inklabels",
+   "pct_previous": 0.28058333333333335,
+   "pct_corrected": 0.2805849358974359,
+   "only_corrected": 1,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0005711544172967866
+  },
+  {
+   "segment": "pherc0139-w039",
+   "mask": "supervision_mask",
+   "pct_previous": 0.8760416666666666,
+   "pct_corrected": 0.8760416666666666,
+   "only_corrected": 0,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0
+  },
+  {
+   "segment": "pherc0139-w040",
+   "mask": "inklabels",
+   "pct_previous": 1.4247066330758775,
+   "pct_corrected": 1.4247335664799283,
+   "only_corrected": 13,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0018904526325290965
+  },
+  {
+   "segment": "pherc0139-w040",
+   "mask": "supervision_mask",
+   "pct_previous": 3.207938310073922,
+   "pct_corrected": 3.207963171677661,
+   "only_corrected": 12,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0007750025510387993
+  },
+  {
+   "segment": "pherc0139-w041",
+   "mask": "inklabels",
+   "pct_previous": 0.4683363148479428,
+   "pct_corrected": 0.4683384445012352,
+   "only_corrected": 1,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0004547273454704153
+  },
+  {
+   "segment": "pherc0139-w041",
+   "mask": "supervision_mask",
+   "pct_previous": 1.1219332992588806,
+   "pct_corrected": 1.1219332992588806,
+   "only_corrected": 0,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0
+  },
+  {
+   "segment": "pherc0139-w043",
+   "mask": "inklabels",
+   "pct_previous": 0.4127605165579849,
+   "pct_corrected": 0.4127605165579849,
+   "only_corrected": 0,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0
+  },
+  {
+   "segment": "pherc0139-w043",
+   "mask": "supervision_mask",
+   "pct_previous": 0.9230874142266547,
+   "pct_corrected": 0.9230874142266547,
+   "only_corrected": 0,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0
+  },
+  {
+   "segment": "pherc0814-46527",
+   "mask": "inklabels",
+   "pct_previous": 2.543364383114898,
+   "pct_corrected": 2.543364383114898,
+   "only_corrected": 0,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0
+  },
+  {
+   "segment": "pherc0814-46527",
+   "mask": "supervision_mask",
+   "pct_previous": 5.829382469442803,
+   "pct_corrected": 5.829382469442803,
+   "only_corrected": 0,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0
+  },
+  {
+   "segment": "pherc0814-46527",
+   "mask": "validation_mask",
+   "pct_previous": 2.188445676470788,
+   "pct_corrected": 2.188445676470788,
+   "only_corrected": 0,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0
+  },
+  {
+   "segment": "pherc1667-w013",
+   "mask": "inklabels",
+   "pct_previous": 0.4890027058368767,
+   "pct_corrected": 0.4890036722071898,
+   "only_corrected": 2,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0001976206474053771
+  },
+  {
+   "segment": "pherc1667-w013",
+   "mask": "supervision_mask",
+   "pct_previous": 1.6228483764978738,
+   "pct_corrected": 1.6228522419791263,
+   "only_corrected": 8,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0002381911525684454
+  },
+  {
+   "segment": "pherc1667-w018",
+   "mask": "inklabels",
+   "pct_previous": 1.377998488506734,
+   "pct_corrected": 1.3781150976625733,
+   "only_corrected": 303,
+   "only_previous": 0,
+   "delta_rel_pct": 0.00846221217308406
+  },
+  {
+   "segment": "pherc1667-w018",
+   "mask": "supervision_mask",
+   "pct_previous": 5.34824545072758,
+   "pct_corrected": 5.349142917893973,
+   "only_corrected": 2332,
+   "only_previous": 0,
+   "delta_rel_pct": 0.016780590469548044
+  },
+  {
+   "segment": "pherc1667-w023",
+   "mask": "inklabels",
+   "pct_previous": 0.5300950133000696,
+   "pct_corrected": 0.5300950133000696,
+   "only_corrected": 0,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0
+  },
+  {
+   "segment": "pherc1667-w023",
+   "mask": "supervision_mask",
+   "pct_previous": 2.017906690214147,
+   "pct_corrected": 2.0180919035091014,
+   "only_corrected": 496,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0091784865897139
+  },
+  {
+   "segment": "pherc1667-w028",
+   "mask": "inklabels",
+   "pct_previous": 0.467674567973091,
+   "pct_corrected": 0.4676830237180122,
+   "only_corrected": 6,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0018080403554646852
+  },
+  {
+   "segment": "pherc1667-w028",
+   "mask": "supervision_mask",
+   "pct_previous": 1.1905406990857579,
+   "pct_corrected": 1.190549154830679,
+   "only_corrected": 6,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0007102440872148633
+  },
+  {
+   "segment": "pherc1667-w029",
+   "mask": "inklabels",
+   "pct_previous": 0.5972225583114875,
+   "pct_corrected": 0.5974121126571218,
+   "only_corrected": 141,
+   "only_previous": 0,
+   "delta_rel_pct": 0.03173931443082156
+  },
+  {
+   "segment": "pherc1667-w029",
+   "mask": "supervision_mask",
+   "pct_previous": 1.6305908449284128,
+   "pct_corrected": 1.6318289977818108,
+   "only_corrected": 921,
+   "only_previous": 0,
+   "delta_rel_pct": 0.07593277352494698
+  },
+  {
+   "segment": "pherc1667-w029",
+   "mask": "validation_mask",
+   "pct_previous": 0.5140189554345634,
+   "pct_corrected": 0.5140189554345634,
+   "only_corrected": 0,
+   "only_previous": 0,
+   "delta_rel_pct": 0.0
+  },
+  {
+   "segment": "pherc1667-w031",
+   "mask": "inklabels",
+   "pct_previous": 1.032257850551162,
+   "pct_corrected": 1.0323520379296554,
+   "only_corrected": 71,
+   "only_previous": 0,
+   "delta_rel_pct": 0.009124404182844081
+  },
+  {
+   "segment": "pherc1667-w031",
+   "mask": "supervision_mask",
+   "pct_previous": 3.4558888005237347,
+   "pct_corrected": 3.4780082420589093,
+   "only_corrected": 16674,
+   "only_previous": 0,
+   "delta_rel_pct": 0.6400507311410736
+  },
+  {
+   "segment": "phercparis4-w00",
+   "mask": "inklabels",
+   "pct_previous": 1.260212679243974,
+   "pct_corrected": 1.2866429457144757,
+   "only_corrected": 27432,
+   "only_previous": 0,
+   "delta_rel_pct": 2.097286188737416
+  },
+  {
+   "segment": "phercparis4-w00",
+   "mask": "supervision_mask",
+   "pct_previous": 5.48017489143955,
+   "pct_corrected": 5.587143667845006,
+   "only_corrected": 111023,
+   "only_previous": 0,
+   "delta_rel_pct": 1.951922676273524
+  },
+  {
+   "segment": "phercparis4-w01",
+   "mask": "inklabels",
+   "pct_previous": 1.8667045997480778,
+   "pct_corrected": 1.8798080180688874,
+   "only_corrected": 15084,
+   "only_previous": 0,
+   "delta_rel_pct": 0.7019545739898008
+  },
+  {
+   "segment": "phercparis4-w01",
+   "mask": "supervision_mask",
+   "pct_previous": 7.119945272119185,
+   "pct_corrected": 7.183115145723841,
+   "only_corrected": 72718,
+   "only_previous": 0,
+   "delta_rel_pct": 0.8872241455565797
+  },
+  {
+   "segment": "phercparis4-w02",
+   "mask": "inklabels",
+   "pct_previous": 1.1208501694399775,
+   "pct_corrected": 1.1562189536167533,
+   "only_corrected": 33260,
+   "only_previous": 0,
+   "delta_rel_pct": 3.1555318579688034
+  },
+  {
+   "segment": "phercparis4-w02",
+   "mask": "supervision_mask",
+   "pct_previous": 4.7763777781736,
+   "pct_corrected": 4.942281408870748,
+   "only_corrected": 156012,
+   "only_previous": 0,
+   "delta_rel_pct": 3.47341936509441
+  },
+  {
+   "segment": "phercparis4-w03",
+   "mask": "inklabels",
+   "pct_previous": 1.889841891925723,
+   "pct_corrected": 1.9083751533400246,
+   "only_corrected": 49369,
+   "only_previous": 29011,
+   "delta_rel_pct": 0.9806778806991379
+  },
+  {
+   "segment": "phercparis4-w03",
+   "mask": "supervision_mask",
+   "pct_previous": 5.467980326958485,
+   "pct_corrected": 5.6165195285206755,
+   "only_corrected": 163189,
+   "only_previous": 25,
+   "delta_rel_pct": 2.716527724685763
+  },
+  {
+   "segment": "phercparis4-w05",
+   "mask": "inklabels",
+   "pct_previous": 2.802155891369363,
+   "pct_corrected": 2.8024208542870332,
+   "only_corrected": 637,
+   "only_previous": 0,
+   "delta_rel_pct": 0.00945568083796379
+  },
+  {
+   "segment": "phercparis4-w05",
+   "mask": "supervision_mask",
+   "pct_previous": 13.280325359488543,
+   "pct_corrected": 13.281742515941449,
+   "only_corrected": 3407,
+   "only_previous": 0,
+   "delta_rel_pct": 0.010671097390646471
+  },
+  {
+   "segment": "phercparis4-w06",
+   "mask": "inklabels",
+   "pct_previous": 2.628094439376551,
+   "pct_corrected": 2.701774416620075,
+   "only_corrected": 93895,
+   "only_previous": 0,
+   "delta_rel_pct": 2.803551354151581
+  },
+  {
+   "segment": "phercparis4-w06",
+   "mask": "supervision_mask",
+   "pct_previous": 8.488873456336012,
+   "pct_corrected": 8.690397747893556,
+   "only_corrected": 256815,
+   "only_previous": 0,
+   "delta_rel_pct": 2.3739815723973092
+  },
+  {
+   "segment": "phercparis4-w07",
+   "mask": "inklabels",
+   "pct_previous": 1.4279894809970337,
+   "pct_corrected": 1.4280568631177708,
+   "only_corrected": 237,
+   "only_previous": 0,
+   "delta_rel_pct": 0.004718670664859868
+  },
+  {
+   "segment": "phercparis4-w07",
+   "mask": "supervision_mask",
+   "pct_previous": 4.549499488734605,
+   "pct_corrected": 4.54545713011587,
+   "only_corrected": 2127,
+   "only_previous": 16345,
+   "delta_rel_pct": -0.08885282059585743
+  },
+  {
+   "segment": "phercparis4-w09",
+   "mask": "inklabels",
+   "pct_previous": 0.9580409135472664,
+   "pct_corrected": 0.9790003882115292,
+   "only_corrected": 31854,
+   "only_previous": 0,
+   "delta_rel_pct": 2.18774317128668
+  },
+  {
+   "segment": "phercparis4-w09",
+   "mask": "supervision_mask",
+   "pct_previous": 3.3723678929325764,
+   "pct_corrected": 3.4465320866698685,
+   "only_corrected": 112714,
+   "only_previous": 0,
+   "delta_rel_pct": 2.1991726908774383
+  }
+ ]
+}
