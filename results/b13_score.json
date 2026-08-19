@@ -4,250 +4,250 @@
  "counts": {
   "b13": 0,
   "m17": 0,
-  "tie": 60
+  "empate": 60
  },
  "decided": 0,
  "p": 1.0,
  "per_window": [
   {
    "id": "K00",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K01",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K02",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K03",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K04",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K05",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K06",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K07",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K08",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K09",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K10",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K11",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K12",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K13",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K14",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K15",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K16",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K17",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K18",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K19",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K20",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K21",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K22",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K23",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K24",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K25",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K26",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K27",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K28",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K29",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K30",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K31",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K32",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K33",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K34",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K35",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K36",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K37",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K38",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K39",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K40",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K41",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K42",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K43",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K44",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K45",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K46",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K47",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K48",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K49",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K50",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K51",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K52",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K53",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K54",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K55",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K56",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K57",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K58",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "K59",
-   "winner": "tie"
+   "winner": "empate"
   }
  ]
 }

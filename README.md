@@ -7,7 +7,8 @@ best number"*, and *"we could be stepping too coarsely, for instance. even more
 at 9um"*.
 
 So I measured it. Four arms on the official recipe, one thing changed each time,
-300 blind paired comparisons against sealed criteria.
+300 blind paired comparisons against sealed criteria. A fifth arm, later, to
+check that a mid-series label change does not disturb any of it.
 
 **The window has more than 3× of slack. Five slices are enough — but only if
 the jitter shrinks with it.**
@@ -162,18 +163,35 @@ round on, memory of the content is likely; by the fifth the judge knew that in
 one round the narrow arm had visibly lost. Declared as an expectation bias that
 cannot be removed.
 
-**Labels with a known defect.** On 2026-08-18 `err` announced that the
-`ink_9um` masks had been uploaded with the alignment pipeline's seam regions
-masked off by mistake, and replaced them. **All five arms trained on the earlier
-version.** I downloaded the corrected set and compared the full centre slice of
-all 51 masks: the median change is **0.0%** — half the segments did not move —
-with a mean of +2.5% pulled by a single +21.5% outlier, concentrated on Paris 4.
-The defect is **common to every arm** and each comparison is between two models
-that saw the same supervision, so a +2.5% difference on some segments does not
-invert a 58–0 result nor turn 60 ties into a visible difference. What it does
-compromise is comparability with models trained after the fix. The metrics above
-use the **corrected** validation masks, which moved least (1 of 3, at most
-+1.7%).
+**Labels changed mid-series, and I measured what that does.** On 2026-08-18
+`err` announced that the `ink_9um` masks had been uploaded with the alignment
+pipeline's seam regions masked off, and replaced them. **All five arms above
+trained on the earlier version.**
+
+Comparing the full centre slice of all 51 masks: median change **0.0%** — half
+the segments did not move — mean +2.5% pulled by a single +21.5% outlier,
+concentrated on Paris 4. Only added pixels, never removed.
+
+Rather than argue that this is harmless, I ran it as a sixth arm. **`m17L` is
+the 17-slice baseline retrained on the corrected labels**, one variable, same
+seed, same everything else — and judged against `m17` by the same blind
+protocol.
+
+**60 ties out of 60.** The two models are genuinely distinct (r 0.79–0.96, mean
+|d| 6 to 16 levels, comparable to the 13-slice arm against the baseline) and
+their p99 on ink pixels is unchanged: 199/200, 200/200, 201/201. Retraining on
+the corrected labels produces a different model that reads the same.
+
+The patch index barely moved either — 133,888 against 133,770, **+0.09%** — so
+the added supervision lands inside patches that already existed rather than
+creating new ones.
+
+Domenico Russo independently measured the other half of this on 2026-08-17:
+rescoring the 14 released checkpoints against the corrected labels moves at most
+0.0033 across 61 scorings, and does not change the best checkpoint per region.
+Evaluation and training both come back unchanged.
+
+`prereg/L1.md` has the preregistration; `results/m17L_score.json` the judgement.
 
 **Region-held-out, not segment-held-out.** The windows are spatially distinct
 but come from segments seen in training. Nothing here speaks to generalisation
@@ -236,6 +254,6 @@ bucket, labels from the `scrollprize` Hugging Face bucket, the recipe from
 
 ---
 
-Paulo S. Camillo, August 2026. Code, figures and results MIT licensed. The
+Paulo Camillo, August 2026. Code, figures and results MIT licensed. The
 checkpoints derive from Vesuvius Challenge data and models and remain subject to
 the terms of those sources.

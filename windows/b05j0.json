@@ -3,8 +3,8 @@
  "seed_ab": 202608180,
  "positions": "the same 60 window positions across every arm",
  "arms": {
-  "b05j0": "5 slices, 48.0 um, jitter max_offset 0",
-  "m17": "17 slices, 163.1 um, jitter max_offset 2 (official recipe)"
+  "b05j0": "5 fatias, 48,0 um, jitter max_offset 0",
+  "m17": "17 fatias, 163,1 um, jitter max_offset 2 (ACC1 M)"
  },
  "n": 60,
  "windows": [

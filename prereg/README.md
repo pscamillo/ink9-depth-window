@@ -10,6 +10,7 @@ existed, no criterion was changed.
 | `B9.md` | 9 slices, jitter ±2 | `cb33793b` | indistinguishable, 60/60 ties |
 | `B5.md` | 5 slices, jitter ±2 | `c94c3837` | breaks, 58–0, p = 0.0000 |
 | `B5J0.md` | 5 slices, jitter 0 | `b317235a` | indistinguishable, 60/60 ties |
+| `L1.md` | corrected labels, 17 slices | `32347bcb` | indistinguishable, 60/60 ties |
 
 ## On the judging criterion
 

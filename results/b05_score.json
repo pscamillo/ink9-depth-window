@@ -4,7 +4,7 @@
  "counts": {
   "b05": 0,
   "m17": 58,
-  "tie": 2
+  "empate": 2
  },
  "decided": 58,
  "p": 6.938893903907228e-18,
@@ -147,7 +147,7 @@
   },
   {
    "id": "N34",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "N35",
@@ -167,7 +167,7 @@
   },
   {
    "id": "N39",
-   "winner": "tie"
+   "winner": "empate"
   },
   {
    "id": "N40",
