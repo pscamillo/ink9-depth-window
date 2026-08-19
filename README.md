@@ -236,6 +236,6 @@ bucket, labels from the `scrollprize` Hugging Face bucket, the recipe from
 
 ---
 
-Paulo Camillo, August 2026. Code, figures and results MIT licensed. The
+Paulo S. Camillo, August 2026. Code, figures and results MIT licensed. The
 checkpoints derive from Vesuvius Challenge data and models and remain subject to
 the terms of those sources.
