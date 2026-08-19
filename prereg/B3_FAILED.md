@@ -18,7 +18,7 @@ the minimum still allowing the stem's 3×3×3 convolution without padding in z.
 
 ## What happened
 
-The run crashed on the first iteration where the Gaussian blur was drawn:
+The run stopped on the first iteration where the Gaussian blur was drawn:
 
     RuntimeError: Padding size should be less than the corresponding input
     dimension, but got: padding (3, 3) at dimension 1 of input [1, 3, 128, 128]
@@ -50,6 +50,5 @@ slices.** At 3, any drawn sigma ≥ 1.0 breaks training.
 The crash does not happen at startup — it happens whenever the draw first lands
 on a large enough sigma, which can be minutes or hours into a run.
 
-Anyone testing narrow depth windows on this recipe will hit this. The fix is
-either to clamp `ksize` to the available dimension or to fall back from
-`reflect` to `replicate` when the padding does not fit.
+Anyone testing narrow depth windows on this recipe will hit the same wall, and
+it is worth knowing the shape of it before setting up a run.

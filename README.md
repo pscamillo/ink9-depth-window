@@ -1,13 +1,13 @@
-# The 9 µm depth window is not what limits the model — the jitter is
+# Five slices are enough at 9 µm — if the jitter shrinks with the window
 
-The released 9 µm recipe samples a 17-slice window of 9.596 µm, 163.1 µm deep,
-and jitters it by ±2 slices during training. Nobody had published a measurement
-of whether 17 is the right number. `err` said as much on 2026-08-14: *"choosing
-17 slices isn't really optimized, it probably isn't the best number"* and *"we
-could be stepping too coarsely, for instance. even more at 9um"*.
+The released 9 µm recipe samples a 17-slice window of 9.596 µm — 163.1 µm deep —
+and jitters it by ±2 slices during training. `err` flagged the number as open on
+2026-08-14: *"choosing 17 slices isn't really optimized, it probably isn't the
+best number"*, and *"we could be stepping too coarsely, for instance. even more
+at 9um"*.
 
-I trained four arms on the official recipe, changing one thing each time, and
-judged 300 blind paired comparisons against sealed criteria.
+So I measured it. Four arms on the official recipe, one thing changed each time,
+300 blind paired comparisons against sealed criteria.
 
 **The window has more than 3× of slack. Five slices are enough — but only if
 the jitter shrinks with it.**
@@ -42,10 +42,10 @@ It was never the depth. It was the jitter.
 At 40% the augmentation stops being a perturbation and starts changing the
 content of the patch. The model trains against a moving target.
 
-**There is an undocumented coupling between window depth and z-augmentation in
-the official recipe.** Shrink the window without shrinking the jitter and you
-will measure a degradation and attribute it to depth. That is exactly what the
-5-slice arm alone would have told me.
+**Window depth and z-augmentation are coupled, and the config does not make it
+visible.** Shrink the window without shrinking the jitter and you will measure a
+degradation and attribute it to depth. That is exactly what the 5-slice arm
+alone would have told me.
 
 And the cheap consequence: a 5-slice window with proportional jitter trains at
 **5.20 it/s against 3.24** for the 17-slice arm on the same GPU — 60% faster,
@@ -95,16 +95,15 @@ Seed noise for reference, measured by Domenico Russo on 2026-08-17 between the
 released seed42 and seed43 checkpoints at the same step: 0.130 on w016, 0.021
 on 0814, 0.072 on w029. Anything below that does not separate from seed.
 
-**Where metric and eye disagree, and I am not resolving it here.** The
-jitter-0 arm loses 0.133 balanced accuracy on w029 — above that region's noise
-floor — while the blind judgement returned 60 ties, most of them because the
-letters read identically on both sides rather than because there were no
-letters. Three readings fit and the data does not choose between them: the
-metric penalises a map the eye accepts (the pattern Domenico documented and
-`err` confirmed, though his AUC agreed with the eye and mine does not); the
-effect sits where the windows do not look; or it is the cost of removing
-augmentation, which the control that would isolate it — 17 slices with jitter 0
-— was never run.
+**Metric and eye disagree on one arm.** The jitter-0 arm loses 0.133 balanced
+accuracy on w029 — above that region's noise floor — while the blind judgement
+returned 60 ties, most of them because the letters read identically on both
+sides rather than because there were no letters. Three readings fit and the
+data does not separate them: the metric penalises a map the eye accepts (the
+pattern Domenico documented and `err` described, though his AUC agreed with the
+eye and mine does not); the effect sits where the windows do not look; or it is
+the cost of removing augmentation, which would need a 17-slice jitter-0 control
+to isolate.
 
 So: five slices with jitter 0 is **not identical** to seventeen with jitter ±2.
 It is **equivalent for reading** across 60 annotated windows, and possibly
@@ -151,9 +150,9 @@ mean |d| of 6 to 18 levels, both sides always at the same step (`ckpt_077500`).
 ## Limits
 
 **One seed per arm.** The criterion called for a second seed on a significant
-result; on the 5-slice arm that was not done, because the jitter-0 experiment
-explained the cause and made the replicate less informative than the separation.
-**The 5-slice result is not confirmed on a second seed.**
+result. On the 5-slice arm I ran the jitter-0 experiment instead, since
+separating the cause was worth more than replicating the effect. **The 5-slice
+result is therefore not confirmed on a second seed.**
 
 **One judge.** All 300 comparisons were made by the same person. The protocol is
 blind and the criteria explicit, but there is no inter-rater agreement.
@@ -180,18 +179,19 @@ use the **corrected** validation masks, which moved least (1 of 3, at most
 but come from segments seen in training. Nothing here speaks to generalisation
 across segments or scrolls.
 
-**The checkpoint is not the final step.** `num_iterations: 78125` with
-`save_every: 2500` writes no checkpoint at the final step; the last one is
-77,500, 99.2% of training. Identical across all arms. **The same applies to the
-official release**, which uses `save_every: 5000` — the published `step-075000`
-is the last one, not the final one.
+**The checkpoint is the last one, not the final step.** With
+`num_iterations: 78125` and `save_every: 2500`, the trainer writes at multiples
+of 2,500, so the last file is 77,500 — 99.2% of training. Identical across all
+arms, so the comparisons are clean. Worth knowing when comparing against the
+released checkpoints, which follow the same pattern at `save_every: 5000`.
 
-**The implementation floor is 5 slices.** I tried 3 and training crashed: the
-`default` augmentation preset's `GaussianBlurTransform` uses
-`blur_sigma=(0.3, 1.5)` with `truncate=6`, producing padding up to 4, and
-PyTorch's `mode="reflect"` requires padding strictly smaller than the dimension.
-At 3 slices any sigma ≥ 1.0 breaks it. The failure only surfaces when the blur
-is drawn, which can take minutes or hours of training.
+**The axis has a floor at 5 slices.** Below that, the `default` augmentation
+preset does not fit: `GaussianBlurTransform` uses `blur_sigma=(0.3, 1.5)` with
+`truncate=6`, which produces padding up to 4, and PyTorch's `mode="reflect"`
+needs padding strictly smaller than the dimension. At 3 slices a drawn sigma of
+1.0 or more exceeds it. Worth knowing before setting up a narrower run, since
+the blur is drawn probabilistically and the run can get some way in before it
+surfaces.
 
 ---
 
