@@ -54,6 +54,31 @@ And the cheap consequence: a 5-slice window with proportional jitter trains at
 
 ---
 
+## Full-segment views
+
+The blind comparison uses 256×768 px windows, which is a fair unit for judging a
+line of text but a poor one for seeing how a model behaves across a whole
+segment. These are the same predictions at full-segment scale — the judging
+crops were cut from these files, nothing was re-inferred.
+
+`phercparis4-w00`, whole canvas, all five arms:
+
+![Paris 4 w00, full segment](figures/phercparis4-w00_full.png)
+
+Four panels carry readable lines of Greek. The fourth — 5 slices with ±2 jitter
+— does not. The fifth, same window with the jitter off, does again.
+
+The same segment at full resolution, on the densest annotated region:
+
+![Paris 4 w00, detail](figures/phercparis4-w00_detail.png)
+
+And the two segments where the effect is largest, `pherc0139-w039` and
+`pherc1667-w013`, are in `figures/` as `_full.png` and `_detail.png`. On 1667
+the text is sparse even in the baseline, which is the harder case and where the
+narrow window with disproportionate jitter loses the most.
+
+---
+
 ## The numbers
 
 ### p99 of the prediction, per segment
