@@ -65,17 +65,25 @@ crops were cut from these files, nothing was re-inferred.
 
 ![Paris 4 w00, full segment](figures/phercparis4-w00_full.png)
 
-Four panels carry readable lines of Greek. The fourth — 5 slices with ±2 jitter
-— does not. The fifth, same window with the jitter off, does again.
+Four panels carry readable lines of Greek at full confidence. The fourth — 5
+slices with ±2 jitter — still has the letters, but washed out: the contrast
+collapses and several lines stop being legible. The fifth, same window with the
+jitter off, is back to the baseline.
+
+Paris 4 is the **mild** case. Its p99 goes 200 → 173 → 200 across those three
+panels, while on `pherc0139-w039` it goes 188 → 68 → 174 and the letters
+genuinely disappear. The figure below and the two segments in `figures/` show
+both ends of that.
 
 The same segment at full resolution, on the densest annotated region:
 
 ![Paris 4 w00, detail](figures/phercparis4-w00_detail.png)
 
-And the two segments where the effect is largest, `pherc0139-w039` and
+The two segments where the effect is largest, `pherc0139-w039` and
 `pherc1667-w013`, are in `figures/` as `_full.png` and `_detail.png`. On 1667
 the text is sparse even in the baseline, which is the harder case and where the
-narrow window with disproportionate jitter loses the most.
+narrow window with disproportionate jitter loses the most — there the letters do
+disappear rather than fade.
 
 ---
 
